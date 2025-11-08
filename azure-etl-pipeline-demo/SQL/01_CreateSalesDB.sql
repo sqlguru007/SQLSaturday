@@ -1,1 +1,2 @@
-
+CREATE DATABASE SalesDB;
+GO
