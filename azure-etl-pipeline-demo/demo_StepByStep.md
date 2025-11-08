@@ -112,7 +112,7 @@ Sink: Azure Synapse dbo.FactSales
 
 
 
-Write Mode: Upsert (Insert + Update)
+Write Mode: Insert + Update (Based on logic (Requirements)
 
 
 
@@ -120,11 +120,12 @@ Key Column: OrderID
 
 
 
-ADF Sink Settings:
+ADF Sink Settings: Auto Create Table
 
 
 
 Enable “Allow upsert”
+
 
 
 
